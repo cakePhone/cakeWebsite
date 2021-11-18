@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body {
+  margin: 0;
+  background-color: rgb(241, 241, 241);
+  background-image: url(https://images.pexels.com/photos/9853913/pexels-photo-9853913.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+* {
+  font-family: 'Dosis';
+}
+
+#navbar {
+  margin-top: 20px;
+  height: 50px;
+  width: 80%;
+  position: fixed;
+  background-color: rgba(255,255,255,0.4);
+}
