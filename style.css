@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
 
 body {
   margin: 0;
@@ -7,13 +8,50 @@ body {
 }
 
 * {
-  font-family: 'Dosis';
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+.logo {
+  display: flex;
+  font-family: "Seaweed Script", cursive;
+  font-size: 100%;
+  color: rgb(188, 221, 236);
 }
 
 #navbar {
-  margin-top: 20px;
-  height: 50px;
-  width: 80%;
+  display: flex;
+  height: 7%;
+  width: 100%;
   position: fixed;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(15,17,26);
+}
+
+#navbar ul {
+  display: flex;
+  /* border: 1px solid white; */
+  height: 70%;
+  width: 50%;
+  align-items: center;
+  align-self: center;
+}
+
+#navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: rgb(188, 221, 236);
+  transition: all 0.3s ease 0s;
+}
+
+#navbar ul li:hover {
+  color: rgba(39,118,156)
+}
+
+#construction {
+  position: absolute;
+  color: white;
+  font-size: 200%;
+  font-family: "Seaweed Script", cursive;
+  padding: 25%;
 }
